@@ -1,0 +1,28 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: configs
+  devtools:
+    livereload:
+      enabled: false
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations: file:///Users/donovan/Downloads/configs
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

@@ -1,4 +1,4 @@
-package com.example.demo.first.service
+package com.example.demo.first.stub
 
 import com.example.demo.grpc.HelloRequest
 import com.example.demo.grpc.HelloResponse
