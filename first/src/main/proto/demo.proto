@@ -12,6 +12,6 @@ message HelloResponse {
     string greeting = 1;
 }
 
-service HelloService {
+service Hello {
     rpc hello (HelloRequest) returns (HelloResponse);
 }
