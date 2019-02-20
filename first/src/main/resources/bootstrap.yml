@@ -1,9 +1,9 @@
 spring:
   application:
-    name: configs
+    name: first
   profiles:
     active:
-      default
+      dev
   cloud:
     config:
       uri: http://localhost:8888

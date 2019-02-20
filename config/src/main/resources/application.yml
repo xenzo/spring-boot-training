@@ -12,7 +12,7 @@ spring:
     config:
       server:
         native:
-          searchLocations: file:///Users/donovan/Downloads/configs
+          searchLocations: file:///Users/Donovan/Documents/Developments/repositories/git-repos/spring-boot-training/config/src/main/resources/configs
 eureka:
   instance:
     preferIpAddress: true
